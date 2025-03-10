@@ -46,8 +46,16 @@ nav {
     font-size: 30px;
     font-weight: 600;
     margin-top: 10px;
+    transition: all 0.3s ease;
 }
 
+/* .logo a {
+    transition: trasform 0.3s;
+} */
+
+.logo:hover {
+    transform: scale(1.2);
+}
 ul .nav-links {
     margin: 0;
     display: flex;
@@ -59,7 +67,12 @@ li.nav-links {
     display: inline-block;
     margin-left: 30px;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 500;  
+}
+
+li.nav-links a:hover {
+    transition: all 0.1s ease;
+    border-bottom: 1px solid #fff;
 }
 
 .content {
